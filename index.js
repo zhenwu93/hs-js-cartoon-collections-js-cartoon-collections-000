@@ -40,8 +40,15 @@ function findTheCheese (foods) {
     var food = foods[i];
     if (food === 'cheddar' || food === 'gouda' || food === 'camembert') {
       return food;
+<<<<<<< HEAD
     }
   }
 
   return 'no cheese!';
+=======
+    } else {
+      return 'no cheese!';
+    }
+  }
+>>>>>>> 5723528f5c9cce2dc53a2875b40b82543807fb73
 }
